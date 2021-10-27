@@ -4,74 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link href="normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Модуль 3</title>
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header container">
         <nav class="main-nav">
             <ul class="main-menu">
-                <li class="main-menu-item1">
-                    <a href="#lifestyle" class="menu-link1">LIFESTYLE</a>
+                <li class="main-menu-item">
+                    <a href="#lifestyle" class="menu-link hover">LIFESTYLE</a>
                 </li>
-                <li class="main-menu-item2">
-                    <a href="#photodairy" class="menu-link2">PHOTODAIDY</a>
+                <li class="main-menu-item">
+                    <a href="#photodiary" class="menu-link">PHOTODIARY</a>
                 </li>
-                <li class="main-menu-item3">
-                    <a href="#" class="menu-link3">MUSIC</a>
-                </li><li class="main-menu-item4">
-                    <a href="#" class="menu-link4">TRAVEL</a>
+                <li class="main-menu-item">
+                    <a href="#" class="menu-link">MUSIC</a>
+                </li>
+                <li class="main-menu-item last-element">
+                    <a href="#" class="menu-link">TRAVEL</a>
                 </li>
             </ul>
         </nav>
 
     </header>
-    <main class="main-content">
+    <main class="main-content container">
         <ul class="main-content-list">
-            <li>
-                <article class="left-1" id="lifestyle">
-                    <img src="img/image.jpg" alt="sucessful-woman">
-                <span>LIFESTYLE</span>
+            <li class="li-content">
+                <article class="content-box" id="lifestyle">
+                    <img class="img" src="img/image.jpg" alt="sucessful-woman">
+                <span class="under-img">LIFESTYLE</span>
                 <p class="heading">More than just a music festival</p>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                 </article>
             </li>
-            <li>
-                <article class="right-2">
-        <img src="img/Filtro fotografico 5 copia 2.jpg" alt="coffee">
+            <li class="li-content last-element">
+                <article class="content-box">
+        <img class="img" src="img/Filtro fotografico 5 copia 2.jpg" alt="coffee">
         <span class="under-img">LIFESTYLE</span>
         <p class="heading">Life tastes better with coffee</p>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                 </article>
                 </li>
-                <li>
-                <article class="left-1" id="photodairy">
-            <img src="img/image2.jpg" alt="tower-and-two-girls">
-            <span class="under-img">PHOTODAIDY</span>
+                <li class="li-content">
+                <article class="content-box" id="photodairy">
+            <img class="img" src="img/image2.jpg" alt="tower-and-two-girls">
+            <span class="under-img">PHOTODIARY</span>
             <p class="heading">American dream</p>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
             </article>
             </li>
-            <li>
-             <article class="right-2">
-        <img src="img/image3.jpg" alt="alone-boy">
-        <span class="under-img">PHOTODAIRY</span>
+            <li class="li-content last-element">
+             <article class="content-box">
+        <img class="img" src="img/image3.jpg" alt="alone-boy">
+        <span class="under-img">PHOTODIARY</span>
         <p class="heading">A day exploring the Alps</p>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
         </article>
         </li>
-        <li>
-            <article class="left-1, last">
-                <img src="img/image4.jpg" alt="girl">
+        <li class="li-content">
+            <article class="content-box">
+                <img class="img"src="img/image4.jpg" alt="girl">
                 <span class="under-img">LIFESTYLE</span>
                 <p class="heading">Top 10 song for running</p>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
             </article>
         </li>
-        <li>
-            <article class="right-2, last">
-                <img src="img/image5.jpg" alt="snow-road">
+        <li class="li-content last-element">
+            <article class="content-box">
+                <img src="img/image5.jpg" alt="snow-road" class="img">
                 <span class="under-img">LIFESTYLE</span>
                 <p class="heading">Cold winter days</p>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
@@ -79,10 +81,8 @@
         </li>
     </ul>
     </main>
-<footer class="main-footer">
-    <div class="b-load-more">
-        <a href="#" class="load-more">Load more</a>
-        </div>
+<footer class="main-footer f-container">
+        <button class="b-load-more">Load more</button>
 </footer>
 </body>
 </html>
